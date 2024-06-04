@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="tech.css" />
+    <title>Python Documentation</title>
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header class="nav-head">
+          <h1>Python Docs</h1>
+        </header>
+        <ul class="nav1">
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#Functions">Functions</a></li>
+          <li><a class="nav-link" href="#Lists">Lists</a></li>
+          <li><a class="nav-link" href="#Tuples">Tuples</a></li>
+          <li><a class="nav-link" href="#Iteration_and_Conditionals">Iteration and Conditionals</a></li>
+        </ul>
+      </nav>
+    <div class="divider"></div>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. It is used for web development (server-side), software development, mathematics, system scripting, and more. Python was designed for readability, and has some similarities to the English language with influence from mathematics. It uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses, and relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes.</p>
+        <p>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc). It has a simple syntax similar to the English language which allows developers to write programs with fewer lines than some other programming languages. It runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick. Python can be treated in a procedural way, an object-oriented way or a functional way.</p>
+      </section>
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>Functions are blocks of code that are written as to avoid rewriting code and simply being able to write a function call to access that block of code. You can also pass parameters into functions which can change the algorithm or the return value.</p>
+        <p>Functions are written using the following syntax: <code> def function_name(parameters)</code>, when you call the function you use the name that you defined it with like so, <code>function_name()</code>, the paratheses are where parameters go if any are used.</p>
+      </section>
+      <section class="main-section" id="Lists">
+        <header>Lists</header>
+        <p>Lists are used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values. List items are indexed, the first item has index [0], the second item has index [1] etc. They are created with square brackets, <code>[2, 3, 4]</code>.</p>
+        <p>Lists can have elements of multiple data types. For example, <code>[True, 3, "apple"]</code>, all are different data types, true is a boolean type, 3 is a number type, and "apple" is a string type.</p>
+      </section>
+      <section class="main-section" id="Tuples">
+        <header>Tuples</header>
+        <p>A tuple can contain one or more items, like a list, <code>[2, 3, 4]</code>, but the items cannot be changed. They cannot be sorted into order, and they cannot be deleted or removed. Perhaps most surprising, you cannot even add a new item to a tuple. Once it is made, a tuple is immutable.</p>
+        <p>This immutability has meant that they are used in very few cases. They are useful when you want to keep a record of something that never changes, however, many algorithms nowadays need to sort, order, and/or change records to make an efficient algorithm.</p>
+      </section>
+      <section class="main-section" id="Iteration_and_Conditionals">
+        <header>Iteration and Conditionals</header>
+        <p>There are multiple types of iteration and conditional statements.</p>
+        <ul>
+          <li>While Statements</li>
+          <li>For Loop (by number)</li>
+          <li>For Loop (by list)</li>
+          <li>If Statements</li>
+          <li>If Else Statements</li>
+        </ul>
+        <p>While statements are iteration statements. They take in a condition such as,<code> while true</code> or<code> while len(list) > 0 </code>and run as long as that condition is true and met.</p>
+        <p>For Loops are also iterations statements. However, they have two main ways they can iterate. The first is by a certain range. For example, it could run 5 times,<code> for i in range(5)</code>, or it could run 3 times,<code> for i in range(3)</code>. The second way it could run is by moving through all list elements. For example, say you have<code> [2, 3, 4] </code>and tell it to go through the list taking note of each element. You would write something like<code> for i in nums </code>with nums being the name of the list.</p>
+        <p>If and If Else statements are conditionals, meaning they can run a certain piece of code when a condition is met. For example, if you want to run something only if a number is greater than 5, you would write something like,<code> if i > 5 </code>. This would mean any code after that statement would only run if the condition is met.</p>
+      </section>
+    </main>
+  </body>
+</html>
